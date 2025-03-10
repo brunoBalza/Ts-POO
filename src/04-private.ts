@@ -35,8 +35,8 @@ console.log(date);
 date.add(1, 'year');
 console.log(date.printFormat()); // 2021-1-1
 
-console.log(date.year); // 2021
-console.log(date.month); // 1       
-console.log(date.day); // 1
+// console.log(date.year); // 2021
+// console.log(date.month); // 1       
+// console.log(date.day); // 1
 
 console.log(date.getDay()); // 1
