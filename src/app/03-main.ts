@@ -29,7 +29,8 @@ import { ProductHttpService } from './services/product.http.service';
     
         const product = await productService.findOne(productId);
         console.log(product.title);
-      } catch(err:any) {
+      } 
+      catch(err:any) {
         console.error(err.response.data);
       }
 
